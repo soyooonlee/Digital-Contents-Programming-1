@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <title>JavaScript no.1</title>
+</body>
+    <script>
+        let radius=prompt("원기둥의 밑면 반지름을 입력해주세요");
+        let height=prompt("원기둥의 높이를 입력해주세요");
+        let pi=3.14;
+
+        function vol(radius, height) { 
+            return radius*radius*pi*height;
+        }
+
+        // alert("밑면의 반지름이 "+radius+", 높이가 "+height+" 인 원기둥의 부피는 "+vol(radius, height)+" 이다.")
+
+        alert(`밑면의 반지름이 ${radius}, 높이가 ${height} 인 원기둥의 부피는 ${vol(radius, height)} 이다.`)
+        
+    </script>
+</html>
